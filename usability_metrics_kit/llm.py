@@ -3,7 +3,7 @@
 This kit ships with LLM enrichment *on by default* across three backends:
 
     * Anthropic  -> claude opus
-    * Google     -> gemini 3.1 pro
+    * Google     -> gemini 4 argon
     * OpenAI     -> gpt 5.5
 
 The model strings below are configurable — swap them for whatever your
@@ -20,7 +20,7 @@ from typing import Any
 # Configurable model strings (LiteLLM-style provider/model identifiers).
 BACKENDS: dict[str, str] = {
     "anthropic": "anthropic/claude-opus-4-7",
-    "gemini": "gemini/gemini-3.1-pro-preview",
+    "gemini": "gemini/gemini-4-argon",
     "openai": "openai/gpt-5.5",
 }
 

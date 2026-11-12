@@ -153,7 +153,7 @@ Set any one of these and narratives turn on automatically:
 
 ```bash
 export ANTHROPIC_API_KEY=...   # claude opus      -> anthropic/claude-opus-4-7
-export GEMINI_API_KEY=...      # gemini 3.1 pro    -> gemini/gemini-3.1-pro-preview
+export GEMINI_API_KEY=...      # gemini 4 argon    -> gemini/gemini-4-argon
 export OPENAI_API_KEY=...      # gpt 5.5           -> openai/gpt-5.5
 ```
 

@@ -31,7 +31,7 @@ def test_offline_returns_none():
     "env,expected_backend,expected_model",
     [
         ("ANTHROPIC_API_KEY", "anthropic", "anthropic/claude-opus-4-7"),
-        ("GEMINI_API_KEY", "gemini", "gemini/gemini-3.1-pro-preview"),
+        ("GEMINI_API_KEY", "gemini", "gemini/gemini-4-argon"),
         ("OPENAI_API_KEY", "openai", "openai/gpt-5.5"),
     ],
 )
